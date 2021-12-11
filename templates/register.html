@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form action="{{ url_for('resule') }}" method="post">   <!--自动获取http://localhost:5000/result-->
+    <p>姓名: <input type="text" name="name"></p>
+    <p>年龄: <input type="text" name="age"></p>
+    <p>性别: <input type="text" name="gender"></p>
+    <p><input type="submit" value="提交"></p>
+</form>
+
+</body>
+</html>
